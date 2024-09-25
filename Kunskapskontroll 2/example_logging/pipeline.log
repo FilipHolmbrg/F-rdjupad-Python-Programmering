@@ -1,0 +1,843 @@
+[2024-09-25 09:01:28][__main__] Starting data pipeline on Willys Landvetter
+[2024-09-25 09:01:28][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 09:01:28][urllib3.connectionpool] https://ereklamblad.se:443 "GET /api/squid/v2/dealerfront?r_lat=57.694554&r_lng=12.206504&r_radius=2500&limit=12&order_by=name&types=paged%2Cincito HTTP/11" 200 None
+[2024-09-25 09:01:28][get_store_object] Successful response: code = 200
+[2024-09-25 09:01:28][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 09:01:28][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 09:01:28][api] Response code = 200 on iteration 0
+[2024-09-25 09:01:28][api] numbers of offers at current page: 24
+[2024-09-25 09:01:28][api] Cumulative offer list is at: 24
+[2024-09-25 09:01:28][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 09:01:28][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 09:01:28][api] Response code = 200 on iteration 0
+[2024-09-25 09:01:28][api] numbers of offers at current page: 24
+[2024-09-25 09:01:28][api] Cumulative offer list is at: 48
+[2024-09-25 09:01:28][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 09:01:29][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 09:01:29][api] Response code = 200 on iteration 0
+[2024-09-25 09:01:29][api] numbers of offers at current page: 24
+[2024-09-25 09:01:29][api] Cumulative offer list is at: 72
+[2024-09-25 09:01:29][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 09:01:29][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 09:01:29][api] Response code = 200 on iteration 0
+[2024-09-25 09:01:29][api] numbers of offers at current page: 24
+[2024-09-25 09:01:29][api] Cumulative offer list is at: 96
+[2024-09-25 09:01:29][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 09:01:29][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 09:01:29][api] Response code = 200 on iteration 0
+[2024-09-25 09:01:29][api] numbers of offers at current page: 0
+[2024-09-25 09:01:29][api] Cumulative offer list is at: 96
+[2024-09-25 09:01:29][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 09:01:29][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 09:01:29][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Per st. 11cm.
+[2024-09-25 09:01:29][parser] String set to None: Per st. 11cm.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: 
+[2024-09-25 09:01:29][parser] String set to None: 
+[2024-09-25 09:01:29][parser] String set to None: 
+[2024-09-25 09:01:29][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 09:01:29][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 09:01:29][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 09:01:29][data_cleaner] Number of rows before removing duplicates: 96
+[2024-09-25 09:01:29][data_cleaner] Number of rows after removing duplicates: 76
+[2024-09-25 09:01:29][data_saver] Number of rows before removing duplicates: 76
+[2024-09-25 09:01:29][data_saver] Number of rows after removing duplicates: 76
+[2024-09-25 09:01:29][data_saver] Data from Willys Landvetter stored in table at db: veckans_erbjudande.db
+[2024-09-25 09:01:29][__main__] Data pipeline on finalized
+[2024-09-25 10:01:20][__main__] Starting data pipeline on Willys Landvetter
+[2024-09-25 10:01:20][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:20][urllib3.connectionpool] https://ereklamblad.se:443 "GET /api/squid/v2/dealerfront?r_lat=57.694554&r_lng=12.206504&r_radius=2500&limit=12&order_by=name&types=paged%2Cincito HTTP/11" 200 None
+[2024-09-25 10:01:20][get_store_object] Successful response: code = 200
+[2024-09-25 10:01:20][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:20][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:20][api] Response code = 200 on iteration 0
+[2024-09-25 10:01:20][api] numbers of offers at current page: 24
+[2024-09-25 10:01:20][api] Cumulative offer list is at: 24
+[2024-09-25 10:01:21][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:21][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:21][api] Response code = 200 on iteration 0
+[2024-09-25 10:01:21][api] numbers of offers at current page: 24
+[2024-09-25 10:01:21][api] Cumulative offer list is at: 48
+[2024-09-25 10:01:21][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:21][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:21][api] Response code = 200 on iteration 0
+[2024-09-25 10:01:21][api] numbers of offers at current page: 24
+[2024-09-25 10:01:21][api] Cumulative offer list is at: 72
+[2024-09-25 10:01:21][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:21][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:21][api] Response code = 200 on iteration 0
+[2024-09-25 10:01:22][api] numbers of offers at current page: 24
+[2024-09-25 10:01:22][api] Cumulative offer list is at: 96
+[2024-09-25 10:01:22][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:22][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:22][api] Response code = 200 on iteration 0
+[2024-09-25 10:01:22][api] numbers of offers at current page: 0
+[2024-09-25 10:01:22][api] Cumulative offer list is at: 96
+[2024-09-25 10:01:22][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:22][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:22][api] Response code = 200 on iteration 1
+[2024-09-25 10:01:22][api] numbers of offers at current page: 24
+[2024-09-25 10:01:22][api] Cumulative offer list is at: 120
+[2024-09-25 10:01:22][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:23][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:23][api] Response code = 200 on iteration 1
+[2024-09-25 10:01:23][api] numbers of offers at current page: 24
+[2024-09-25 10:01:23][api] Cumulative offer list is at: 144
+[2024-09-25 10:01:23][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:23][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:23][api] Response code = 200 on iteration 1
+[2024-09-25 10:01:23][api] numbers of offers at current page: 24
+[2024-09-25 10:01:23][api] Cumulative offer list is at: 168
+[2024-09-25 10:01:23][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:23][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:23][api] Response code = 200 on iteration 1
+[2024-09-25 10:01:23][api] numbers of offers at current page: 24
+[2024-09-25 10:01:23][api] Cumulative offer list is at: 192
+[2024-09-25 10:01:23][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:23][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:23][api] Response code = 200 on iteration 1
+[2024-09-25 10:01:23][api] numbers of offers at current page: 0
+[2024-09-25 10:01:23][api] Cumulative offer list is at: 192
+[2024-09-25 10:01:24][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:24][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:24][api] Response code = 200 on iteration 2
+[2024-09-25 10:01:24][api] numbers of offers at current page: 24
+[2024-09-25 10:01:24][api] Cumulative offer list is at: 216
+[2024-09-25 10:01:24][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:24][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:24][api] Response code = 200 on iteration 2
+[2024-09-25 10:01:24][api] numbers of offers at current page: 24
+[2024-09-25 10:01:24][api] Cumulative offer list is at: 240
+[2024-09-25 10:01:24][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:25][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:25][api] Response code = 200 on iteration 2
+[2024-09-25 10:01:25][api] numbers of offers at current page: 24
+[2024-09-25 10:01:25][api] Cumulative offer list is at: 264
+[2024-09-25 10:01:25][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:25][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:25][api] Response code = 200 on iteration 2
+[2024-09-25 10:01:25][api] numbers of offers at current page: 24
+[2024-09-25 10:01:25][api] Cumulative offer list is at: 288
+[2024-09-25 10:01:25][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:01:25][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:01:25][api] Response code = 200 on iteration 2
+[2024-09-25 10:01:25][api] numbers of offers at current page: 0
+[2024-09-25 10:01:25][api] Cumulative offer list is at: 288
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:01:25][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:01:25][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:01:25][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:01:25][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: 
+[2024-09-25 10:01:25][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:01:25][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:01:25][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:01:25][data_cleaner] Number of rows before removing duplicates: 288
+[2024-09-25 10:01:25][data_cleaner] Number of rows after removing duplicates: 96
+[2024-09-25 10:01:25][data_saver] Number of rows before removing duplicates: 172
+[2024-09-25 10:01:25][data_saver] Number of rows after removing duplicates: 96
+[2024-09-25 10:01:25][data_saver] Data from Willys Landvetter stored in table at db: veckans_erbjudande.db
+[2024-09-25 10:01:25][__main__] Data pipeline on finalized
+[2024-09-25 10:07:05][__main__] Starting data pipeline on Willys Landvetter
+[2024-09-25 10:07:05][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:06][urllib3.connectionpool] https://ereklamblad.se:443 "GET /api/squid/v2/dealerfront?r_lat=57.694554&r_lng=12.206504&r_radius=2500&limit=12&order_by=name&types=paged%2Cincito HTTP/11" 200 None
+[2024-09-25 10:07:06][get_store_object] Successful response: code = 200
+[2024-09-25 10:07:06][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:06][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:06][api] Response code = 200 on iteration 0
+[2024-09-25 10:07:06][api] numbers of offers at current page: 24
+[2024-09-25 10:07:06][api] Cumulative offer list is at: 24
+[2024-09-25 10:07:06][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:06][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:06][api] Response code = 200 on iteration 0
+[2024-09-25 10:07:06][api] numbers of offers at current page: 24
+[2024-09-25 10:07:06][api] Cumulative offer list is at: 48
+[2024-09-25 10:07:06][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:07][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:07][api] Response code = 200 on iteration 0
+[2024-09-25 10:07:07][api] numbers of offers at current page: 24
+[2024-09-25 10:07:07][api] Cumulative offer list is at: 72
+[2024-09-25 10:07:07][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:07][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:07][api] Response code = 200 on iteration 0
+[2024-09-25 10:07:07][api] numbers of offers at current page: 24
+[2024-09-25 10:07:07][api] Cumulative offer list is at: 96
+[2024-09-25 10:07:07][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:07][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:07][api] Response code = 200 on iteration 0
+[2024-09-25 10:07:07][api] numbers of offers at current page: 0
+[2024-09-25 10:07:07][api] Cumulative offer list is at: 96
+[2024-09-25 10:07:08][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:08][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:08][api] Response code = 200 on iteration 1
+[2024-09-25 10:07:08][api] numbers of offers at current page: 24
+[2024-09-25 10:07:08][api] Cumulative offer list is at: 120
+[2024-09-25 10:07:08][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:08][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:08][api] Response code = 200 on iteration 1
+[2024-09-25 10:07:08][api] numbers of offers at current page: 24
+[2024-09-25 10:07:08][api] Cumulative offer list is at: 144
+[2024-09-25 10:07:08][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:08][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:08][api] Response code = 200 on iteration 1
+[2024-09-25 10:07:08][api] numbers of offers at current page: 24
+[2024-09-25 10:07:08][api] Cumulative offer list is at: 168
+[2024-09-25 10:07:09][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:09][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:09][api] Response code = 200 on iteration 1
+[2024-09-25 10:07:09][api] numbers of offers at current page: 24
+[2024-09-25 10:07:09][api] Cumulative offer list is at: 192
+[2024-09-25 10:07:09][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:09][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:09][api] Response code = 200 on iteration 1
+[2024-09-25 10:07:09][api] numbers of offers at current page: 0
+[2024-09-25 10:07:09][api] Cumulative offer list is at: 192
+[2024-09-25 10:07:09][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:09][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:09][api] Response code = 200 on iteration 2
+[2024-09-25 10:07:09][api] numbers of offers at current page: 24
+[2024-09-25 10:07:09][api] Cumulative offer list is at: 216
+[2024-09-25 10:07:09][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:10][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:10][api] Response code = 200 on iteration 2
+[2024-09-25 10:07:10][api] numbers of offers at current page: 24
+[2024-09-25 10:07:10][api] Cumulative offer list is at: 240
+[2024-09-25 10:07:10][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:10][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:10][api] Response code = 200 on iteration 2
+[2024-09-25 10:07:10][api] numbers of offers at current page: 24
+[2024-09-25 10:07:10][api] Cumulative offer list is at: 264
+[2024-09-25 10:07:10][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:10][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:10][api] Response code = 200 on iteration 2
+[2024-09-25 10:07:10][api] numbers of offers at current page: 24
+[2024-09-25 10:07:10][api] Cumulative offer list is at: 288
+[2024-09-25 10:07:10][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:07:10][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:07:10][api] Response code = 200 on iteration 2
+[2024-09-25 10:07:10][api] numbers of offers at current page: 0
+[2024-09-25 10:07:10][api] Cumulative offer list is at: 288
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:07:10][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:07:10][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:07:10][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: 
+[2024-09-25 10:07:10][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:07:10][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:07:10][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:07:10][data_cleaner] Number of rows before removing duplicates: 288
+[2024-09-25 10:07:10][data_cleaner] Number of rows after removing duplicates: 96
+[2024-09-25 10:07:10][data_saver] Number of rows before removing duplicates: 192
+[2024-09-25 10:07:10][data_saver] Number of rows after removing duplicates: 96
+[2024-09-25 10:07:10][data_saver] Data from Willys Landvetter stored in table at db: veckans_erbjudande.db
+[2024-09-25 10:07:10][__main__] Data pipeline on finalized
+[2024-09-25 10:08:52][__main__] Starting data pipeline on Willys Landvetter
+[2024-09-25 10:08:52][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:53][urllib3.connectionpool] https://ereklamblad.se:443 "GET /api/squid/v2/dealerfront?r_lat=57.694554&r_lng=12.206504&r_radius=2500&limit=12&order_by=name&types=paged%2Cincito HTTP/11" 200 None
+[2024-09-25 10:08:53][get_store_object] Successful response: code = 200
+[2024-09-25 10:08:53][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:53][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:53][api] Response code = 200 on iteration 0
+[2024-09-25 10:08:53][api] numbers of offers at current page: 24
+[2024-09-25 10:08:53][api] Cumulative offer list is at: 24
+[2024-09-25 10:08:53][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:53][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:53][api] Response code = 200 on iteration 0
+[2024-09-25 10:08:53][api] numbers of offers at current page: 24
+[2024-09-25 10:08:53][api] Cumulative offer list is at: 48
+[2024-09-25 10:08:53][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:53][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:53][api] Response code = 200 on iteration 0
+[2024-09-25 10:08:53][api] numbers of offers at current page: 24
+[2024-09-25 10:08:53][api] Cumulative offer list is at: 72
+[2024-09-25 10:08:53][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:54][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:54][api] Response code = 200 on iteration 0
+[2024-09-25 10:08:54][api] numbers of offers at current page: 24
+[2024-09-25 10:08:54][api] Cumulative offer list is at: 96
+[2024-09-25 10:08:54][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:54][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:54][api] Response code = 200 on iteration 0
+[2024-09-25 10:08:54][api] numbers of offers at current page: 0
+[2024-09-25 10:08:54][api] Cumulative offer list is at: 96
+[2024-09-25 10:08:54][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:54][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:54][api] Response code = 200 on iteration 1
+[2024-09-25 10:08:54][api] numbers of offers at current page: 24
+[2024-09-25 10:08:54][api] Cumulative offer list is at: 120
+[2024-09-25 10:08:54][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:55][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:55][api] Response code = 200 on iteration 1
+[2024-09-25 10:08:55][api] numbers of offers at current page: 24
+[2024-09-25 10:08:55][api] Cumulative offer list is at: 144
+[2024-09-25 10:08:55][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:55][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:55][api] Response code = 200 on iteration 1
+[2024-09-25 10:08:55][api] numbers of offers at current page: 24
+[2024-09-25 10:08:55][api] Cumulative offer list is at: 168
+[2024-09-25 10:08:55][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:55][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:55][api] Response code = 200 on iteration 1
+[2024-09-25 10:08:55][api] numbers of offers at current page: 24
+[2024-09-25 10:08:55][api] Cumulative offer list is at: 192
+[2024-09-25 10:08:55][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:55][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:55][api] Response code = 200 on iteration 1
+[2024-09-25 10:08:55][api] numbers of offers at current page: 0
+[2024-09-25 10:08:55][api] Cumulative offer list is at: 192
+[2024-09-25 10:08:56][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:56][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:56][api] Response code = 200 on iteration 2
+[2024-09-25 10:08:56][api] numbers of offers at current page: 24
+[2024-09-25 10:08:56][api] Cumulative offer list is at: 216
+[2024-09-25 10:08:56][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:56][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:56][api] Response code = 200 on iteration 2
+[2024-09-25 10:08:56][api] numbers of offers at current page: 24
+[2024-09-25 10:08:56][api] Cumulative offer list is at: 240
+[2024-09-25 10:08:56][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:56][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:56][api] Response code = 200 on iteration 2
+[2024-09-25 10:08:56][api] numbers of offers at current page: 24
+[2024-09-25 10:08:56][api] Cumulative offer list is at: 264
+[2024-09-25 10:08:57][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:57][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:57][api] Response code = 200 on iteration 2
+[2024-09-25 10:08:57][api] numbers of offers at current page: 24
+[2024-09-25 10:08:57][api] Cumulative offer list is at: 288
+[2024-09-25 10:08:57][urllib3.connectionpool] Starting new HTTPS connection (1): ereklamblad.se:443
+[2024-09-25 10:08:58][urllib3.connectionpool] https://ereklamblad.se:443 "POST /api/squid/v4/rpc/get_offers HTTP/11" 200 None
+[2024-09-25 10:08:58][api] Response code = 200 on iteration 2
+[2024-09-25 10:08:58][api] numbers of offers at current page: 0
+[2024-09-25 10:08:58][api] Cumulative offer list is at: 288
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80! BLÅ BAND • 39g/6dl-72g/6dl Pulver • Flera olika sorter Jämförpris 20:83 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80-18:80! GARANT • 200g • 250g • Gäller ej softbun Jämförpris 70:00-87:50 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: GULDFÅGELN • 350-500g Flera olika sorter • Djupfrysta Jämförpris 66:00-94:29 kr/kg. SPARA 11:70–14:70!
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:08:58][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | PANESCO • 300g • Stenugnsbakad Jämförpris 30:00 kr/kg. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 3:80! FIXA • Jämförpris 3:50 kr/st.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:80–19:80! KOCKENS • 7-56g • Flera olika sorter Gäller ej vaniljstång samt ekologiska Jämförpris 285:71-2285:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 540/300g • Långskivad Jämförpris 89:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | SVERIGE • Klass 1 Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:08:58][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! GARANT • 500g • Flera olika sorter Gäller ej fullkorn samt ekologisk Jämförpris 25:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 200g • Opastöriserad Jämförpris 349:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 15:80! MARABOU • 160-200g • Flera olika sorter Jämförpris 110:00-137:50 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 9:80! GARANT • 250g Jämförpris 60:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | SPARA 30:00. COCA-COLA • FANTA • SPRITE • 33cl Flera olika sorter • Jämförpris 16:52 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:80! FUN LIGHT • 0,8L/5,6L 1L/10L • Flera olika sorter Jämförpris 2:30-4:11 kr/l +pant.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 3:00-6:00! HELLMANN’S • 250ml Jämförpris 103:60 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 500g • Finmalen Original • Jämförpris 25:80 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 5 st | NEDERLÄNDERNA, SPANIEN Klass 1 • Jämförpris 74:50 kr/kg Max 5 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. GARANT • 1kg • Gäller ej ekologisk samt fullkorn. • Jämförpris 17:90 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 4:80! GARANT • 3x90g • Flera olika sorter Gäller ej ekologiska • Jämförpris 64:81 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 2 st | TILLFÄLLIGT PARTI! Per förp. PAMPERS • 84-108p • Olika sorter Jämförpris 2:03-2:61 kr/st Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 21:70-27:70! OLW • 200-275g • Flera olika sorter Gäller ej cheez doodles 285g samt delichips Jämförpris 71:53-98:35 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. HEL LÅDA. SPARA 40:00. CARLSBERG • 33cl • Jämförpris 22:09 kr/l. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris – Max 3 st | För dig med WillysPlus. +pant. SPARA 7:00. INNOCENT • 900ml • Flera olika sorter Jämförpris 29:89 kr/l +pant. Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:00! VALIO • 1L • Gäller ej salted caramel samt vanilla • Jämförpris 15:00 kr/l.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 6:00! PAULÚNS • 450g • Hasselnötter & dadlar Jämförpris 88:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: ALLTID BILLIGT! PRIME PATROL • 130g 140g • Olika sorter Jämförpris 142:86-153:85 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per hg. SPARA 5:00 PER HG! FALBYGDENS • Ca 165g Réserve opastöriserad • 32% Jämförpris 399:00 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: FELIX • 210-220g • Djupfryst • Flera olika sorter Jämförpris 112:50-117:86 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: DR. OETKER • 540g • 555g • Olika sorter Djupfryst • Jämförpris 80:18-82:41 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: TILLFÄLLIGT PARTI! Per förp. COMPASS • 600g • Djupfryst Jämförpris 83:17 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: Per förp. SPARA 7:00! OUMPH! • 280g • Djupfrysta Jämförpris 106:79 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: LAND SE FÖRP • Klass 1 Jämförpris 113:71 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: 
+[2024-09-25 10:08:58][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:08:58][parser] String set to None: Per st. 11cm.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Max 3 st | PORTUGAL, FRANKRIKE, ITALIEN • Klass 1 Jämförpris 119:20 kr/kg • Max 3 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Heja svenskt! Per kg. SVERIGE • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Per kg. SPANIEN • Klass 1 • Jämförpris 19:90 kr/kg Max 5 kg/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: Obs! Medlemspris | För dig med WillysPlus. SPARA 55:70-58:70. A+ • 880ml • 920ml • Flera olika sorter Jämförpris 1:14-1:20 kr/tvätt. Max 2 köp/hushåll.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 6:50! ELDORADO • Jämförpris 0:13 kr/st.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 7:00! SEMPER • 90g • Flera olika sorter • Från 6 månader Jämförpris 97:22 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 6:00–10:00! SEMPER • 120g • Från 6 månader Flera olika sorter • Gäller ej måltidsklämmisar Jämförpris 91:67 kr/kg.
+[2024-09-25 10:08:58][parser] String set to None: SPARA 3:80! GARANT • 380/230g Naturella • Gäller ej ekologiska Jämförpris 43:48 kr/kg.
+[2024-09-25 10:08:58][data_cleaner] Number of rows before removing duplicates: 288
+[2024-09-25 10:08:58][data_cleaner] Number of rows after removing duplicates: 96
+[2024-09-25 10:08:58][data_saver] Number of rows before removing duplicates: 192
+[2024-09-25 10:08:58][data_saver] Number of rows after removing duplicates: 96
+[2024-09-25 10:08:58][data_saver] Data from Willys Landvetter stored in table at db: veckans_erbjudande.db
+[2024-09-25 10:08:58][__main__] Data pipeline on finalized
